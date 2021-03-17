@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'JSONModel', '1.8.0'
-  s.dependency 'TWFoundation', '0.0.3'
+  s.dependency 'JSONModel', '~> 1.8.0'
+  s.dependency 'TWFoundation', '~> 0.0.3'
   
   
 end
