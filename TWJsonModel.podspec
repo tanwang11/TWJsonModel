@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TWJsonModel'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'TWJsonModel.'
 
 # This description is used to generate tags and improve search results.
@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.dependency 'JSONModel'
-  s.dependency 'TWFoundation'
+  s.dependency 'JSONModel', '1.8.0'
+  s.dependency 'TWFoundation', '0.0.3'
   
   
 end
