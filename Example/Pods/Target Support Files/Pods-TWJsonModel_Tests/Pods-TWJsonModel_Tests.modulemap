@@ -1,0 +1,6 @@
+framework module Pods_TWJsonModel_Tests {
+  umbrella header "Pods-TWJsonModel_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

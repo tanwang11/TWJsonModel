@@ -23,6 +23,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D1805DE62601AFD900C3989A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1805DE32601AFD900C3989A /* .gitkeep */; };
+		D1805DFA2601B10100C3989A /* TWJsonModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805DF92601B10100C3989A /* TWJsonModelTool.m */; };
+		D1805DFF2601B15D00C3989A /* TWJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805DFE2601B15D00C3989A /* TWJsonModel.m */; };
+		D1805E042601B19700C3989A /* JSONModel+twSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E032601B19700C3989A /* JSONModel+twSafe.m */; };
 		E4AA4DA786CFFC891EE237BB /* Pods_TWJsonModel_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F6DD7E951DF2D749B360165 /* Pods_TWJsonModel_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05948C35447EC89EBA417526 /* TWJsonModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWJsonModel.podspec; path = ../TWJsonModel.podspec; sourceTree = "<group>"; };
+		05948C35447EC89EBA417526 /* TWJsonModel.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWJsonModel.podspec; path = ../TWJsonModel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1D8BFDAB6B15AD9F90EF680E /* Pods-TWJsonModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWJsonModel_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWJsonModel_Tests/Pods-TWJsonModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2928810E5EA57FA05A430BFC /* Pods-TWJsonModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWJsonModel_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2A5481BED703DF78AA1E7073 /* Pods-TWJsonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWJsonModel_Example.release.xcconfig"; path = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,8 +69,15 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4A61DA51102F7602B767984 /* Pods_TWJsonModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWJsonModel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB561F8D652309F085836FD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		FF51ABDDF6008892371DD6E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BB561F8D652309F085836FD1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D1805DE32601AFD900C3989A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1805DF82601B10100C3989A /* TWJsonModelTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJsonModelTool.h; sourceTree = "<group>"; };
+		D1805DF92601B10100C3989A /* TWJsonModelTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJsonModelTool.m; sourceTree = "<group>"; };
+		D1805DFD2601B15D00C3989A /* TWJsonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJsonModel.h; sourceTree = "<group>"; };
+		D1805DFE2601B15D00C3989A /* TWJsonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJsonModel.m; sourceTree = "<group>"; };
+		D1805E022601B19700C3989A /* JSONModel+twSafe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONModel+twSafe.h"; sourceTree = "<group>"; };
+		D1805E032601B19700C3989A /* JSONModel+twSafe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JSONModel+twSafe.m"; sourceTree = "<group>"; };
+		FF51ABDDF6008892371DD6E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +114,6 @@
 				66A6D65396E53A4E6B8D0974 /* Pods-TWJsonModel_Tests.debug.xcconfig */,
 				1D8BFDAB6B15AD9F90EF680E /* Pods-TWJsonModel_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +154,8 @@
 		6003F593195388D20070C39A /* Example for TWJsonModel */ = {
 			isa = PBXGroup;
 			children = (
+				D1805DE22601AFD900C3989A /* Assets */,
+				D1805DE42601AFD900C3989A /* Classes */,
 				6003F59C195388D20070C39A /* TWAppDelegate.h */,
 				6003F59D195388D20070C39A /* TWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -195,6 +207,27 @@
 				FF51ABDDF6008892371DD6E8 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D1805DE22601AFD900C3989A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1805DE32601AFD900C3989A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D1805DE42601AFD900C3989A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1805DF82601B10100C3989A /* TWJsonModelTool.h */,
+				D1805DF92601B10100C3989A /* TWJsonModelTool.m */,
+				D1805DFD2601B15D00C3989A /* TWJsonModel.h */,
+				D1805DFE2601B15D00C3989A /* TWJsonModel.m */,
+				D1805E022601B19700C3989A /* JSONModel+twSafe.h */,
+				D1805E032601B19700C3989A /* JSONModel+twSafe.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +292,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +314,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D1805DE62601AFD900C3989A /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -303,10 +338,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JSONModel/JSONModel.framework",
+				"${BUILT_PRODUCTS_DIR}/TWFoundation/TWFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/TWJsonModel/TWJsonModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWJsonModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,9 +422,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1805DFA2601B10100C3989A /* TWJsonModelTool.m in Sources */,
+				D1805E042601B19700C3989A /* JSONModel+twSafe.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1805DFF2601B15D00C3989A /* TWJsonModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

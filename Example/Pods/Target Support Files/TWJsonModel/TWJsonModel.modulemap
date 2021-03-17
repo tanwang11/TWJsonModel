@@ -1,0 +1,6 @@
+framework module TWJsonModel {
+  umbrella header "TWJsonModel-umbrella.h"
+
+  export *
+  module * { export * }
+}

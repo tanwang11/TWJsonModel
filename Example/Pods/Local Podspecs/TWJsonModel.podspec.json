@@ -1,0 +1,30 @@
+{
+  "name": "TWJsonModel",
+  "version": "0.0.1",
+  "summary": "TWJsonModel.",
+  "description": "TWJsonModel tool.",
+  "homepage": "https://github.com/tanwang11/TWJsonModel",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanwang11": "aihy@linrunwc.com"
+  },
+  "source": {
+    "git": "https://github.com/tanwang11/TWJsonModel.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Example/TWJsonModel/Classes/*.{h,m}",
+  "dependencies": {
+    "JSONModel": [
+
+    ],
+    "TWFoundation": [
+
+    ]
+  }
+}

@@ -1,0 +1,1799 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = BFC58DB98CC4B65854C0BF91F26D24FA /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = CFE89925B6F421D23FEFB1BB8A7FC239 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		068FAE21A7DEFC1116421911981C52F5 /* NSObject+twAssiign.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C91244A0EB4695C9AB9931F219B277B /* NSObject+twAssiign.m */; };
+		08AB969FAF86BF1B4D46A9C289FFA439 /* NSObject+twAssiign.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E32AC32F2000C9737A009AE8241FB8C /* NSObject+twAssiign.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C7A40A67ED5BDB0EB9673CA419ED822 /* NSString+twMD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B1996C53C99D3EAB795550EEA4449D12 /* NSString+twMD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		100D3A40D706D3E8BFE1B504DDB9920B /* NSDictionary+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF1293DD4DE4DDFBE6D53639FABB41F /* NSDictionary+twSwizzling.m */; };
+		1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A671EDD173E3417578C52A49D1079D2 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B0E20917C370598623B46955E0D5D8 /* UIApplication+StrictKeyWindow.m */; };
+		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26204B0489F4ABC36F83F2734766C346 /* XCTest.framework */; };
+		1422BBE575143EA7567B1F1E5A768453 /* NSDictionary+twTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 873CA3C7A7E3DE0C08F4669787F232EB /* NSDictionary+twTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = DD25A12C8493278DDC3527DCDF23982E /* UIImage+Diff.m */; };
+		15288751B201C8221E40598E62BF6700 /* JSONModel+twSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = C78B0F305B780C586B3CCA24747DA087 /* JSONModel+twSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1609008EEE6572F06F28231122F6C8A6 /* TWJsonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FBF62A1C94B5925D8F47CEAE29F13A /* TWJsonModel.m */; };
+		16AB90F6924ECC9F2CC68BFCB4E716BA /* NSArray+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = F0FF503BE2FFF7BC717B8B05F4730773 /* NSArray+twSwizzling.m */; };
+		191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = DAEB20599F6A4B3E52D1DEC7F71263D5 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E56AF1A0BC7D018E24AE19ED248BA7A /* NSString+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 358F26ACEC5C6B3A40880CD98E53EB72 /* NSString+twTool.m */; };
+		1ECE79A9D703FCA3C971048B838FBA30 /* TWAssistant.h in Headers */ = {isa = PBXBuildFile; fileRef = 594F75A0DCFC948D7B76E874B0F2A617 /* TWAssistant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FB69FA9FFD3C161D82DC49939C40C4E /* NSDecimalNumber+twChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD531BAA1171AAE4544DD801C9DEEAA /* NSDecimalNumber+twChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		264C6BA1AEAFA083DC088E6351511EDB /* NSFileManager+twTool.h in Headers */ = {isa = PBXBuildFile; fileRef = AE130E49E37976E187879427EA72CAA4 /* NSFileManager+twTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0BB4E153605420DBB8AE07761F67BA /* JSONKeyMapper.m */; };
+		2C3CAF2571C02EB5AF79343A1DB49E28 /* NSFileManager+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F63706CB92855991280A1A24009FBEB8 /* NSFileManager+twTool.m */; };
+		2D4FD9C23AC644C462A852F4D8EC7F00 /* NSArray+twJsonDic.m in Sources */ = {isa = PBXBuildFile; fileRef = B83B41362081D071C79AA4F7025ED3DD /* NSArray+twJsonDic.m */; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = E6913DCA8DD875774B5C0358C0CFD240 /* UIImage+Compare.m */; };
+		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AA66A3DAA9D8F86FF96F0C9BC2E057E /* QuartzCore.framework */; };
+		2E77A37EF7B20888E77CB3267AAA04D1 /* Pods-TWJsonModel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D7988712E727DC3089A61361361BA3 /* Pods-TWJsonModel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		383597EC1CF643D3D96970C856A6C8C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AACF124FDDF4592C08D9A98261404D /* UIKit.framework */; };
+		3864DE5F0766C45C2C057143E8C2A6E8 /* TWFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F50979F300DF4FEC8C73E217E225A0A5 /* TWFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 43708C0983AE42DD104F3F0B14E9ABA9 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C5DD52D06AAB3308D1083EB61B17FE1 /* NSArray+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = ED7689367A534A7DA1ED6EF31C281D5C /* NSArray+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 377F6F107D6C12B75711DCBE71EFDEB2 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		40A26FC9B0D90618AA426B4BCFD1608E /* NSString+twMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8832C490FBD749252551CBB47BAD0003 /* NSString+twMD5.m */; };
+		4248EA439F9347F8AC1743ABE519AADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		4D03FDD80958B55ACC6A43B5143933B2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E18504E702C36F1AE6D44DC2FE7F13 /* CoreText.framework */; };
+		4E3DF36357A1AB4D9CBDE84637E4FEC4 /* NSData+twDic.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F66FBD327BB05FB5C0B655D81BF3714 /* NSData+twDic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5055FB626F731B453FEB5FED1A5ED17D /* NSDate+twTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D09C8FDA99C19416BC103BD6D3E2508D /* NSDate+twTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		507B5DBCCA3ACD7A5C8A9FD16BF56B30 /* NSString+twAtt.h in Headers */ = {isa = PBXBuildFile; fileRef = FACD3998509E2350993A72CC765025A4 /* NSString+twAtt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		555718B3A7320C5D841B7387B6AA955D /* TWFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D095C0F64A4B35EE6BDCA000930006 /* TWFoundation-dummy.m */; };
+		57851479F2555FD02A80F73C54D749FE /* NSMutableArray+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = A990F89C6DE46B24110C888998488C38 /* NSMutableArray+twChain.m */; };
+		5B1D1B19DA113D53FF43BF186F0F33BC /* JSONModel+twSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = A111D1532C26A8CDF966DB32D91BB1B3 /* JSONModel+twSafe.m */; };
+		5D7ACFA285EE9B8E305CE3438C7B2D0D /* Block+twPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = A4D52DCA9A49347241557FB2A6275521 /* Block+twPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631849B5356940A34CFF91CAFB4D5F28 /* NSObject+twPerformSelector.h in Headers */ = {isa = PBXBuildFile; fileRef = 26F9610588D68C9834F6FA97F7B0A97B /* NSObject+twPerformSelector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		632A5CDDEABDA1FB093AC7484D100B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		697BFC649B68F869219078D5DDEA4A26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 473F6F3543E96240235B523D0C1261E8 /* FBSnapshotTestCase-dummy.m */; };
+		6DE2D173276F0131FFBE002FF817528F /* Pods-TWJsonModel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D47B4C27F6AB9B76766165F4AF74829 /* Pods-TWJsonModel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 85322734EC65C9CFCC9CE0EF0052C8F4 /* JSONModel.m */; };
+		70325CFAA136AC6DC7B12501884B9616 /* TWJsonModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 110E9E7559DE76646A9BCF68E98E4BD6 /* TWJsonModelTool.m */; };
+		71762BD73436E8A98EC3B16C6BEBA194 /* NSString+twEmail.h in Headers */ = {isa = PBXBuildFile; fileRef = 04B61A639A5F44953BBD56287FAFBC9F /* NSString+twEmail.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71EF6C585712B94068047343E196E71E /* TWJsonModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EC8EF93F68C420A57659E2F67A1DA8 /* TWJsonModel-dummy.m */; };
+		74424E43E1D4C968ABDAA841F3BB502A /* NSString+twSize.m in Sources */ = {isa = PBXBuildFile; fileRef = B9A125284E21A2AC2F4B4FB7FC7283FC /* NSString+twSize.m */; };
+		74EAB2AA090B4652BDB13A85BD0F6493 /* NSDecimalNumber+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B937C295892DCAA32D312A63E1AFA72 /* NSDecimalNumber+twSwizzling.m */; };
+		75083212E87AF65312E17C6FB00B11AD /* NSString+twIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2C698D27B633F55BB4C0825263136B /* NSString+twIDCard.m */; };
+		75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ACC36914596EC7D446F4C133A252ED4 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DC61EDF4240D6AAA29FF3DDB933C64 /* NSString+twEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 64200561AE40A5ECA25A3A4F14447780 /* NSString+twEmail.m */; };
+		7BA92FE60D681306E4B5004055F4B73E /* NSObject+twPerformSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = E89E014CA0BA65AE1B84E8CFB370D067 /* NSObject+twPerformSelector.m */; };
+		7E89E92412D8B39F4628D9ED31DFCD4D /* NSDecimalNumber+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = DC754C73572B25D80D4894E60AB4AAB3 /* NSDecimalNumber+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FCDD508122EAD1B7D8E44DD2D076A84 /* TWFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 19DE038E703F1D4ADEF823B5B00A2681 /* TWFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		847739EED7D5293EBA5456E2616D6418 /* Fun+twPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B7607942B1F4269BD7B0B61C64E9765 /* Fun+twPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B79B978C23C02AA281CB34FD3261EE /* FBSnapshotTestController.m */; };
+		88448DCF472C186791CE61F8E9BFA8DD /* NSString+twIDCard.h in Headers */ = {isa = PBXBuildFile; fileRef = B60DE1DEB6A42D42E3B19E60AC6EA718 /* NSString+twIDCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D5ACF5B44C79EAFAC1BB70CE2B4D40C /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = F1BAF7AE3782EFECC8921CC110EDEA4A /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AEBCEBF3EC20CA673F17CADB25FD4B9 /* Size+twPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = A46A82D2EDFA55A75690699281B453FF /* Size+twPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C97CCD01062EE2E9F791F649836DEB1 /* TWAssistant.m in Sources */ = {isa = PBXBuildFile; fileRef = BC31B92CA75781E556E183410CF3109F /* TWAssistant.m */; };
+		9CAEF8151CF6085D76345ECDA382ED27 /* NSObject+twSafeKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF78ADEF42A60ADB6060DD7F360852 /* NSObject+twSafeKVO.m */; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3593DCB72B12E533CCA1529EDC116F06 /* SwiftSupport.swift */; };
+		9FCFA317AD1242FD0CBF94D0AE096AA0 /* JSONModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2027A910060CEB6C34D628CBED8A5EE8 /* JSONModel.framework */; };
+		A0F400E39F54A64BE0B96953676053CC /* NSDate+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A3A9A5774A55770F6FFB4F14E74784 /* NSDate+twTool.m */; };
+		A292A82CFBE9FE501DEC69C7074969BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		A436134B8354FC914E13EC95FDF2D570 /* Pods-TWJsonModel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAD853FBF0FA74348463FE5A92017C /* Pods-TWJsonModel_Example-dummy.m */; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = DE1186A40BDB636C28A0274E1997E93B /* UIImage+Snapshot.m */; };
+		A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D68215E817EBBCA97ABA58A8BC3E08 /* JSONModelError.m */; };
+		A86E3244C57E27FD0AA0770C92AC89CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		AB8B9D1C43EB911ACE4A006483DF2A79 /* TWFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F73D7E173FF7E39DC0AEDB381732EB /* TWFoundation.framework */; };
+		ACE9CE885A90D76579D5CA0906552EF2 /* NSDecimalNumber+twChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3357A927BD8764B1FAC549B699A67134 /* NSDecimalNumber+twChain.m */; };
+		B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = F28830A9BC9BCCC9CFEB8C7E87DC1EBE /* JSONValueTransformer.m */; };
+		B1F1A46FC5DDA6402A1868AE8FF7D0EE /* NSString+twTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B48CAE8A287934E2F8BF964A79E8E98 /* NSString+twTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 01285E0BC8ED8537B6C902DF3D74756C /* JSONHTTPClient.m */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = BE6A7F5D36748CF07BC34281FCDD96BD /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B837D5A2A908853FE83A363243430C5A /* NSData+twDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 380F0B1E30B4317C7D6D5B18A2ABC0F4 /* NSData+twDic.m */; };
+		B8990AD083381CBE79F8E7E5985B1507 /* NSMutableArray+twChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 3202928A9D278CFA77121E4EFB159120 /* NSMutableArray+twChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98A097021D5AC619DB076E4752112D1 /* Color+twPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CED197FC2A67E8B90A34034D53C062 /* Color+twPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB83E1272AB411A30E53187B6CC60221 /* TWJsonModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B14F24B6A095FCBF595D8B6CA846F64 /* TWJsonModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4AACF124FDDF4592C08D9A98261404D /* UIKit.framework */; };
+		BE55FC3AD5B4986F5B1A5B7D27C06C30 /* NSObject+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 40403B01E3C81C8EFD4DA5830269139D /* NSObject+twSwizzling.m */; };
+		BF517127282CFEF2A582635A832A9D99 /* NSString+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F41F78A7A1A703C222D5C3767D29B08 /* NSString+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 34200929E9D1C67CF19B5A6F85CB5B38 /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FD793A314174D50B66FEAAE5D0895C9 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 573DBA5521D262961024AB37D6046ACB /* JSONModelClassProperty.m */; };
+		C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = DF73ECC64050B6C8BC5C828C53FC739A /* JSONAPI.m */; };
+		C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1577333B5B5D9FC0E6BC698D7D8B4908 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9BB6314693C5CCE7F3924AF799A44DD /* Pods-TWJsonModel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3600698A661C8DD1306710BB1F07A212 /* Pods-TWJsonModel_Tests-dummy.m */; };
+		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */; };
+		CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD5031227E167E658DC3BE181C3C253 /* JSONModel+networking.m */; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 0483604AB85B412272B68EC3B4BD6A9C /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = F00571C4ACBEA6C0CE143A2A3CA898BD /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67527ED7F9A580B2C04302325EED4D4 /* NSArray+twJsonDic.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8FB47A0A6EE3808B22273A5D771D77 /* NSArray+twJsonDic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB021D5517A42CC756CF86B74D88D773 /* NSDictionary+twTool.m in Sources */ = {isa = PBXBuildFile; fileRef = AC5DB1596DAABB679E331BCCB8C7E6BB /* NSDictionary+twTool.m */; };
+		DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 41366A2446FBD4F56B1A909274C4A0C8 /* JSONModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1510CF44142616797B512C87B7BB04B /* NSMutableArray+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BFEB18F6A997BDE2970B1DD9FE0EEB1 /* NSMutableArray+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 18335BEAF74C71DBCFC450574AA862B1 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B2B6B9A2C32195D16557A17F148A50 /* FBSnapshotTestCasePlatform.m */; };
+		EBB125556500F85FC6982B79931FCC78 /* NSString+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = C081B6BABDF026E3749FB81F379FB8CE /* NSString+twSwizzling.m */; };
+		EE5FA20A0A614A3CB40DAB9D788576F6 /* NSString+twAtt.m in Sources */ = {isa = PBXBuildFile; fileRef = CF89CE18D42B7F0BF867A818C7E3E33C /* NSString+twAtt.m */; };
+		EFE9290C148E7044B256ABA3615C9BE6 /* NSDictionary+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = EC34C917A405130B55A14501EDB53559 /* NSDictionary+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F144E2D86ABC8FC19E6448178DC6AB2C /* NSObject+twSwizzling.h in Headers */ = {isa = PBXBuildFile; fileRef = D66FAED30DDA62A613BC8A5746BB8AC1 /* NSObject+twSwizzling.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 70404D3A0AE552BFBCCB068E17B916DA /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F1C1B04555CAE7988ED4A9D093B139CA /* NSString+twSize.h in Headers */ = {isa = PBXBuildFile; fileRef = DC256C14741EC91DE552B1BA487C3F45 /* NSString+twSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5B29EE94A0F43D637163E8E5E0D4F3 /* JSONModel-dummy.m */; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FED05B248A69595106C7091F4B310D83 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F86AAB391A7C1ABEEAB3FB0BAFAB904E /* TWJsonModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B5192571FB82EF462B5209C13BEE3ED3 /* TWJsonModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9F03122454B38C256A72C3FA5B05F06 /* Font+twPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = B8D7B811FA6E46F4F5C3A475360A2422 /* Font+twPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE55FDF91719F09CA195DF40FA7B403D /* NSMutableArray+twSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFC806CE014165926860D9E15B780D /* NSMutableArray+twSwizzling.m */; };
+		FE6029FAF590FD176A88A53D5754DB33 /* NSObject+twSafeKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F154AC2C7CBD57B52C4F6A87E543460 /* NSObject+twSafeKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE60E435C64DA8393D129A403D2FEB0E /* TWJsonModel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8328854AC2EF3573C2E8E2FDB50983C /* TWJsonModel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77C5587598892053FA2FF5AA548C1213 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E911C497383C36C26D2A9FF5DB0D40B;
+			remoteInfo = TWFoundation;
+		};
+		7CC7559A5490EE0D37AEA67C4080DC1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69A7A18043224C3419AC3C083542642C;
+			remoteInfo = "Pods-TWJsonModel_Example";
+		};
+		80FB494263DFAB19B05F4714F0036AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		8BAF8D4DF8E5F0F1D035DD9038ECC681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B3D700FCC8E2C0F92CE5048178C643ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0EAF4371C6E4B30A1779D513CB4355B;
+			remoteInfo = JSONModel;
+		};
+		B548B7748089B29500591E8DA4A6C730 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E911C497383C36C26D2A9FF5DB0D40B;
+			remoteInfo = TWFoundation;
+		};
+		ECCFAE5DB28735019AB9F025AD54099C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844669E9166D5986E4DC5166C38A38CB;
+			remoteInfo = TWJsonModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004BF7169FE115BBDE2ECD7B0B335565 /* Pods-TWJsonModel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWJsonModel_Tests-Info.plist"; sourceTree = "<group>"; };
+		01285E0BC8ED8537B6C902DF3D74756C /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0483604AB85B412272B68EC3B4BD6A9C /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		04B61A639A5F44953BBD56287FAFBC9F /* NSString+twEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twEmail.h"; path = "TWFoundation/Classes/NSString/NSString+twEmail.h"; sourceTree = "<group>"; };
+		098797DA51D64F2D96D892F8E6AB8A4D /* Pods-TWJsonModel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWJsonModel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		110E9E7559DE76646A9BCF68E98E4BD6 /* TWJsonModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWJsonModelTool.m; path = Example/TWJsonModel/Classes/TWJsonModelTool.m; sourceTree = "<group>"; };
+		1577333B5B5D9FC0E6BC698D7D8B4908 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		15A3A9A5774A55770F6FFB4F14E74784 /* NSDate+twTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+twTool.m"; path = "TWFoundation/Classes/NSDate/NSDate+twTool.m"; sourceTree = "<group>"; };
+		18335BEAF74C71DBCFC450574AA862B1 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		19B0E20917C370598623B46955E0D5D8 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		19DE038E703F1D4ADEF823B5B00A2681 /* TWFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWFoundation.h; path = TWFoundation/Classes/TWFoundation.h; sourceTree = "<group>"; };
+		1A671EDD173E3417578C52A49D1079D2 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		1AA66A3DAA9D8F86FF96F0C9BC2E057E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		1AD531BAA1171AAE4544DD801C9DEEAA /* NSDecimalNumber+twChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+twChain.h"; path = "TWFoundation/Classes/NSDecimalNumber/NSDecimalNumber+twChain.h"; sourceTree = "<group>"; };
+		1B48CAE8A287934E2F8BF964A79E8E98 /* NSString+twTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twTool.h"; path = "TWFoundation/Classes/NSString/NSString+twTool.h"; sourceTree = "<group>"; };
+		1E32AC32F2000C9737A009AE8241FB8C /* NSObject+twAssiign.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+twAssiign.h"; path = "TWFoundation/Classes/NSObject/NSObject+twAssiign.h"; sourceTree = "<group>"; };
+		1F66FBD327BB05FB5C0B655D81BF3714 /* NSData+twDic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+twDic.h"; path = "TWFoundation/Classes/NSData/NSData+twDic.h"; sourceTree = "<group>"; };
+		2027A910060CEB6C34D628CBED8A5EE8 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D095C0F64A4B35EE6BDCA000930006 /* TWFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWFoundation-dummy.m"; sourceTree = "<group>"; };
+		2304139314741E48EFA03C7AFC9F95BF /* Pods-TWJsonModel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TWJsonModel_Tests.modulemap"; sourceTree = "<group>"; };
+		26204B0489F4ABC36F83F2734766C346 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		26F9610588D68C9834F6FA97F7B0A97B /* NSObject+twPerformSelector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+twPerformSelector.h"; path = "TWFoundation/Classes/NSObject/NSObject+twPerformSelector.h"; sourceTree = "<group>"; };
+		2ADA895092F35CEC1B11B2AB9D1895FF /* JSONModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JSONModel-Info.plist"; sourceTree = "<group>"; };
+		2DCFC806CE014165926860D9E15B780D /* NSMutableArray+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+twSwizzling.m"; path = "TWFoundation/Classes/NSArray/NSMutableArray+twSwizzling.m"; sourceTree = "<group>"; };
+		2EA26C979B6918E142088F4AC33C1685 /* TWJsonModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TWJsonModel.modulemap; sourceTree = "<group>"; };
+		3202928A9D278CFA77121E4EFB159120 /* NSMutableArray+twChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+twChain.h"; path = "TWFoundation/Classes/NSArray/NSMutableArray+twChain.h"; sourceTree = "<group>"; };
+		3357A927BD8764B1FAC549B699A67134 /* NSDecimalNumber+twChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+twChain.m"; path = "TWFoundation/Classes/NSDecimalNumber/NSDecimalNumber+twChain.m"; sourceTree = "<group>"; };
+		34200929E9D1C67CF19B5A6F85CB5B38 /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		358F26ACEC5C6B3A40880CD98E53EB72 /* NSString+twTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twTool.m"; path = "TWFoundation/Classes/NSString/NSString+twTool.m"; sourceTree = "<group>"; };
+		3593DCB72B12E533CCA1529EDC116F06 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		3600698A661C8DD1306710BB1F07A212 /* Pods-TWJsonModel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWJsonModel_Tests-dummy.m"; sourceTree = "<group>"; };
+		377F6F107D6C12B75711DCBE71EFDEB2 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		380F0B1E30B4317C7D6D5B18A2ABC0F4 /* NSData+twDic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+twDic.m"; path = "TWFoundation/Classes/NSData/NSData+twDic.m"; sourceTree = "<group>"; };
+		3A2C698D27B633F55BB4C0825263136B /* NSString+twIDCard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twIDCard.m"; path = "TWFoundation/Classes/NSString/NSString+twIDCard.m"; sourceTree = "<group>"; };
+		3ACC36914596EC7D446F4C133A252ED4 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		3B5B29EE94A0F43D637163E8E5E0D4F3 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		3FD793A314174D50B66FEAAE5D0895C9 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		40403B01E3C81C8EFD4DA5830269139D /* NSObject+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+twSwizzling.m"; path = "TWFoundation/Classes/NSObject/NSObject+twSwizzling.m"; sourceTree = "<group>"; };
+		41366A2446FBD4F56B1A909274C4A0C8 /* JSONModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-umbrella.h"; sourceTree = "<group>"; };
+		41937B3D8372F55DEC401C3D94BBEFEB /* TWJsonModel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TWJsonModel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4355F6F3584B67D5CB0F8F6452E3ACFC /* TWJsonModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWJsonModel.release.xcconfig; sourceTree = "<group>"; };
+		43708C0983AE42DD104F3F0B14E9ABA9 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		473F6F3543E96240235B523D0C1261E8 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		4B7607942B1F4269BD7B0B61C64E9765 /* Fun+twPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Fun+twPrefix.h"; path = "TWFoundation/Classes/Prefix/Fun+twPrefix.h"; sourceTree = "<group>"; };
+		5058AE52CE1C22B6C7AB673EDB364256 /* TWFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TWFoundation-Info.plist"; sourceTree = "<group>"; };
+		573DBA5521D262961024AB37D6046ACB /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		594F75A0DCFC948D7B76E874B0F2A617 /* TWAssistant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWAssistant.h; path = TWFoundation/Classes/TWAssistant/TWAssistant.h; sourceTree = "<group>"; };
+		5B14F24B6A095FCBF595D8B6CA846F64 /* TWJsonModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWJsonModelTool.h; path = Example/TWJsonModel/Classes/TWJsonModelTool.h; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D47B4C27F6AB9B76766165F4AF74829 /* Pods-TWJsonModel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWJsonModel_Example-umbrella.h"; sourceTree = "<group>"; };
+		5E6002663F3B9D59BD27AF3601DE7C4B /* TWFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWFoundation-prefix.pch"; sourceTree = "<group>"; };
+		5F41F78A7A1A703C222D5C3767D29B08 /* NSString+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twSwizzling.h"; path = "TWFoundation/Classes/NSString/NSString+twSwizzling.h"; sourceTree = "<group>"; };
+		60FF78ADEF42A60ADB6060DD7F360852 /* NSObject+twSafeKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+twSafeKVO.m"; path = "TWFoundation/Classes/NSObject/NSObject+twSafeKVO.m"; sourceTree = "<group>"; };
+		61E03E2A4D96964085B606FCBF8EB3A3 /* TWJsonModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWJsonModel-prefix.pch"; sourceTree = "<group>"; };
+		6237E2F5022E29CC82AACD380A93DACE /* Pods-TWJsonModel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWJsonModel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6339ECEC90939AF49D087C876EB76CDD /* TWFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TWFoundation.framework; path = TWFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64200561AE40A5ECA25A3A4F14447780 /* NSString+twEmail.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twEmail.m"; path = "TWFoundation/Classes/NSString/NSString+twEmail.m"; sourceTree = "<group>"; };
+		64CED197FC2A67E8B90A34034D53C062 /* Color+twPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Color+twPrefix.h"; path = "TWFoundation/Classes/Prefix/Color+twPrefix.h"; sourceTree = "<group>"; };
+		6814296D2721FF67DD34C91D686E13D4 /* Pods-TWJsonModel_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWJsonModel_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6B937C295892DCAA32D312A63E1AFA72 /* NSDecimalNumber+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+twSwizzling.m"; path = "TWFoundation/Classes/NSDecimalNumber/NSDecimalNumber+twSwizzling.m"; sourceTree = "<group>"; };
+		6D5ACF5B44C79EAFAC1BB70CE2B4D40C /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		6F8FB47A0A6EE3808B22273A5D771D77 /* NSArray+twJsonDic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+twJsonDic.h"; path = "TWFoundation/Classes/NSArray/NSArray+twJsonDic.h"; sourceTree = "<group>"; };
+		6FEC150F2D42CCF836B04B7E9FD3E070 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		70404D3A0AE552BFBCCB068E17B916DA /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		705D65B3C631E0B48783D3175699394F /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		81FCE1525ECFD4D85A27180FCB8A16D9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		85322734EC65C9CFCC9CE0EF0052C8F4 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		873CA3C7A7E3DE0C08F4669787F232EB /* NSDictionary+twTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+twTool.h"; path = "TWFoundation/Classes/NSDictionary/NSDictionary+twTool.h"; sourceTree = "<group>"; };
+		8832C490FBD749252551CBB47BAD0003 /* NSString+twMD5.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twMD5.m"; path = "TWFoundation/Classes/NSString/NSString+twMD5.m"; sourceTree = "<group>"; };
+		886DF712D79AD62A1D1DABB19B5A4049 /* TWJsonModel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TWJsonModel-Info.plist"; sourceTree = "<group>"; };
+		89CF21EB41BEAB8887E1062AE751C341 /* Pods_TWJsonModel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TWJsonModel_Tests.framework; path = "Pods-TWJsonModel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C4CC18186F7F509D756991FF4A54607 /* TWFoundation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWFoundation.release.xcconfig; sourceTree = "<group>"; };
+		8C91244A0EB4695C9AB9931F219B277B /* NSObject+twAssiign.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+twAssiign.m"; path = "TWFoundation/Classes/NSObject/NSObject+twAssiign.m"; sourceTree = "<group>"; };
+		8F154AC2C7CBD57B52C4F6A87E543460 /* NSObject+twSafeKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+twSafeKVO.h"; path = "TWFoundation/Classes/NSObject/NSObject+twSafeKVO.h"; sourceTree = "<group>"; };
+		90862ED5DD5C6C18415E60CCA597C51B /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		93299A408727AF5ED151DF0EDDB409FD /* Pods_TWJsonModel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TWJsonModel_Example.framework; path = "Pods-TWJsonModel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFEB18F6A997BDE2970B1DD9FE0EEB1 /* NSMutableArray+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+twSwizzling.h"; path = "TWFoundation/Classes/NSArray/NSMutableArray+twSwizzling.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A111D1532C26A8CDF966DB32D91BB1B3 /* JSONModel+twSafe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+twSafe.m"; path = "Example/TWJsonModel/Classes/JSONModel+twSafe.m"; sourceTree = "<group>"; };
+		A3D68215E817EBBCA97ABA58A8BC3E08 /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		A46A82D2EDFA55A75690699281B453FF /* Size+twPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Size+twPrefix.h"; path = "TWFoundation/Classes/Prefix/Size+twPrefix.h"; sourceTree = "<group>"; };
+		A4D52DCA9A49347241557FB2A6275521 /* Block+twPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Block+twPrefix.h"; path = "TWFoundation/Classes/Prefix/Block+twPrefix.h"; sourceTree = "<group>"; };
+		A5165DD0CC8F745C005DB1D682262A51 /* Pods-TWJsonModel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TWJsonModel_Example.modulemap"; sourceTree = "<group>"; };
+		A990F89C6DE46B24110C888998488C38 /* NSMutableArray+twChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+twChain.m"; path = "TWFoundation/Classes/NSArray/NSMutableArray+twChain.m"; sourceTree = "<group>"; };
+		AC111872AFF949A121B4F0E9726518D0 /* Pods-TWJsonModel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWJsonModel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AC5DB1596DAABB679E331BCCB8C7E6BB /* NSDictionary+twTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+twTool.m"; path = "TWFoundation/Classes/NSDictionary/NSDictionary+twTool.m"; sourceTree = "<group>"; };
+		AE130E49E37976E187879427EA72CAA4 /* NSFileManager+twTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+twTool.h"; path = "TWFoundation/Classes/NSFileManager/NSFileManager+twTool.h"; sourceTree = "<group>"; };
+		B185C498A06507EE33647C2A2A458630 /* TWJsonModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TWJsonModel.framework; path = TWJsonModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1996C53C99D3EAB795550EEA4449D12 /* NSString+twMD5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twMD5.h"; path = "TWFoundation/Classes/NSString/NSString+twMD5.h"; sourceTree = "<group>"; };
+		B246D53BC9FC9E196BA4519759E431C2 /* JSONModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.release.xcconfig; sourceTree = "<group>"; };
+		B4226D8CEB67DF9E7FEDEF6AC3672BC9 /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		B4EC8EF93F68C420A57659E2F67A1DA8 /* TWJsonModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TWJsonModel-dummy.m"; sourceTree = "<group>"; };
+		B5192571FB82EF462B5209C13BEE3ED3 /* TWJsonModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TWJsonModel.h; path = Example/TWJsonModel/Classes/TWJsonModel.h; sourceTree = "<group>"; };
+		B60DE1DEB6A42D42E3B19E60AC6EA718 /* NSString+twIDCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twIDCard.h"; path = "TWFoundation/Classes/NSString/NSString+twIDCard.h"; sourceTree = "<group>"; };
+		B6E18504E702C36F1AE6D44DC2FE7F13 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		B83B41362081D071C79AA4F7025ED3DD /* NSArray+twJsonDic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+twJsonDic.m"; path = "TWFoundation/Classes/NSArray/NSArray+twJsonDic.m"; sourceTree = "<group>"; };
+		B8D7B811FA6E46F4F5C3A475360A2422 /* Font+twPrefix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Font+twPrefix.h"; path = "TWFoundation/Classes/Prefix/Font+twPrefix.h"; sourceTree = "<group>"; };
+		B8FBF62A1C94B5925D8F47CEAE29F13A /* TWJsonModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWJsonModel.m; path = Example/TWJsonModel/Classes/TWJsonModel.m; sourceTree = "<group>"; };
+		B9185119BAB051D6B0701ABF947256F4 /* Pods-TWJsonModel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWJsonModel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B9A125284E21A2AC2F4B4FB7FC7283FC /* NSString+twSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twSize.m"; path = "TWFoundation/Classes/NSString/NSString+twSize.m"; sourceTree = "<group>"; };
+		BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSONModel.framework; path = JSONModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC31B92CA75781E556E183410CF3109F /* TWAssistant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TWAssistant.m; path = TWFoundation/Classes/TWAssistant/TWAssistant.m; sourceTree = "<group>"; };
+		BE6A7F5D36748CF07BC34281FCDD96BD /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		BFC58DB98CC4B65854C0BF91F26D24FA /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		C081B6BABDF026E3749FB81F379FB8CE /* NSString+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twSwizzling.m"; path = "TWFoundation/Classes/NSString/NSString+twSwizzling.m"; sourceTree = "<group>"; };
+		C164E7DE9E36D1DD6EA4C298865C2377 /* Pods-TWJsonModel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWJsonModel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1D7988712E727DC3089A61361361BA3 /* Pods-TWJsonModel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TWJsonModel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C3C31359569E1B8C88858E54F198FA8A /* Pods-TWJsonModel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWJsonModel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C78B0F305B780C586B3CCA24747DA087 /* JSONModel+twSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+twSafe.h"; path = "Example/TWJsonModel/Classes/JSONModel+twSafe.h"; sourceTree = "<group>"; };
+		C8328854AC2EF3573C2E8E2FDB50983C /* TWJsonModel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWJsonModel-umbrella.h"; sourceTree = "<group>"; };
+		CD70AEBE1BF061D9AC91CB6BA1CA59A3 /* TWJsonModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWJsonModel.debug.xcconfig; sourceTree = "<group>"; };
+		CF89CE18D42B7F0BF867A818C7E3E33C /* NSString+twAtt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+twAtt.m"; path = "TWFoundation/Classes/NSString/NSString+twAtt.m"; sourceTree = "<group>"; };
+		CFE89925B6F421D23FEFB1BB8A7FC239 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		D09C8FDA99C19416BC103BD6D3E2508D /* NSDate+twTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+twTool.h"; path = "TWFoundation/Classes/NSDate/NSDate+twTool.h"; sourceTree = "<group>"; };
+		D2287D79DC5CD05B19AAA44504EEF960 /* Pods-TWJsonModel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TWJsonModel_Example-Info.plist"; sourceTree = "<group>"; };
+		D3F52A57B835C30E2FC5CB04F2735306 /* JSONModel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSONModel.modulemap; sourceTree = "<group>"; };
+		D4AACF124FDDF4592C08D9A98261404D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D66FAED30DDA62A613BC8A5746BB8AC1 /* NSObject+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+twSwizzling.h"; path = "TWFoundation/Classes/NSObject/NSObject+twSwizzling.h"; sourceTree = "<group>"; };
+		DAEB20599F6A4B3E52D1DEC7F71263D5 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		DC256C14741EC91DE552B1BA487C3F45 /* NSString+twSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twSize.h"; path = "TWFoundation/Classes/NSString/NSString+twSize.h"; sourceTree = "<group>"; };
+		DC754C73572B25D80D4894E60AB4AAB3 /* NSDecimalNumber+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+twSwizzling.h"; path = "TWFoundation/Classes/NSDecimalNumber/NSDecimalNumber+twSwizzling.h"; sourceTree = "<group>"; };
+		DD25A12C8493278DDC3527DCDF23982E /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		DE1186A40BDB636C28A0274E1997E93B /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		DEF1293DD4DE4DDFBE6D53639FABB41F /* NSDictionary+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+twSwizzling.m"; path = "TWFoundation/Classes/NSDictionary/NSDictionary+twSwizzling.m"; sourceTree = "<group>"; };
+		DF73ECC64050B6C8BC5C828C53FC739A /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		E0BAD853FBF0FA74348463FE5A92017C /* Pods-TWJsonModel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TWJsonModel_Example-dummy.m"; sourceTree = "<group>"; };
+		E22245376D97054CDEE3B1023C9C3886 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		E23D43487D94E4AA34D8F550A4A1CB91 /* TWFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TWFoundation.modulemap; sourceTree = "<group>"; };
+		E504F3C947363FBF071EB8365C0DF35F /* Pods-TWJsonModel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TWJsonModel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E52087FF83029CE0BB014C1E13E7CE30 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		E6913DCA8DD875774B5C0358C0CFD240 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		E89E014CA0BA65AE1B84E8CFB370D067 /* NSObject+twPerformSelector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+twPerformSelector.m"; path = "TWFoundation/Classes/NSObject/NSObject+twPerformSelector.m"; sourceTree = "<group>"; };
+		E9F73D7E173FF7E39DC0AEDB381732EB /* TWFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TWFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB0BB4E153605420DBB8AE07761F67BA /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		EC34C917A405130B55A14501EDB53559 /* NSDictionary+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+twSwizzling.h"; path = "TWFoundation/Classes/NSDictionary/NSDictionary+twSwizzling.h"; sourceTree = "<group>"; };
+		ED7689367A534A7DA1ED6EF31C281D5C /* NSArray+twSwizzling.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+twSwizzling.h"; path = "TWFoundation/Classes/NSArray/NSArray+twSwizzling.h"; sourceTree = "<group>"; };
+		EFD5031227E167E658DC3BE181C3C253 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		F00571C4ACBEA6C0CE143A2A3CA898BD /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		F04B8084726D50FE4D9DBB2B8D31451A /* JSONModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.debug.xcconfig; sourceTree = "<group>"; };
+		F0FF503BE2FFF7BC717B8B05F4730773 /* NSArray+twSwizzling.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+twSwizzling.m"; path = "TWFoundation/Classes/NSArray/NSArray+twSwizzling.m"; sourceTree = "<group>"; };
+		F1BAF7AE3782EFECC8921CC110EDEA4A /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		F28830A9BC9BCCC9CFEB8C7E87DC1EBE /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+		F290D0F7996B0707C1FA51EA1A57E01A /* TWFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TWFoundation.debug.xcconfig; sourceTree = "<group>"; };
+		F340EAC95BDA1A2AB1D27A6E670F2355 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F3B79B978C23C02AA281CB34FD3261EE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		F4B2B6B9A2C32195D16557A17F148A50 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		F50979F300DF4FEC8C73E217E225A0A5 /* TWFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TWFoundation-umbrella.h"; sourceTree = "<group>"; };
+		F63706CB92855991280A1A24009FBEB8 /* NSFileManager+twTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+twTool.m"; path = "TWFoundation/Classes/NSFileManager/NSFileManager+twTool.m"; sourceTree = "<group>"; };
+		F7FFB1CF1FA9E4DFC8BD63604A818218 /* Pods-TWJsonModel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TWJsonModel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F900651ECFC39E46B101D40275122F93 /* Pods-TWJsonModel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TWJsonModel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FACD3998509E2350993A72CC765025A4 /* NSString+twAtt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+twAtt.h"; path = "TWFoundation/Classes/NSString/NSString+twAtt.h"; sourceTree = "<group>"; };
+		FED05B248A69595106C7091F4B310D83 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E2B016A949C325DDB4E74EB017717A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D03FDD80958B55ACC6A43B5143933B2 /* CoreText.framework in Frameworks */,
+				A86E3244C57E27FD0AA0770C92AC89CA /* Foundation.framework in Frameworks */,
+				383597EC1CF643D3D96970C856A6C8C6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4768D958347E083D43B9B8FDB3876AE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A292A82CFBE9FE501DEC69C7074969BD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886E050E05F79FD43F2409BED7E67F73 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632A5CDDEABDA1FB093AC7484D100B77 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E581515110D66F94F80A6937831489A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */,
+				2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */,
+				BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */,
+				121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6BF75D5E146B3660077512191838221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4248EA439F9347F8AC1743ABE519AADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E93A6A7CEA7833E13E0A11A33E024D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				697BFC649B68F869219078D5DDEA4A26 /* Foundation.framework in Frameworks */,
+				9FCFA317AD1242FD0CBF94D0AE096AA0 /* JSONModel.framework in Frameworks */,
+				AB8B9D1C43EB911ACE4A006483DF2A79 /* TWFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06A28DFF59C0B158B52A13E0417AB7D9 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				D09C8FDA99C19416BC103BD6D3E2508D /* NSDate+twTool.h */,
+				15A3A9A5774A55770F6FFB4F14E74784 /* NSDate+twTool.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		198E88E0EAF95C1EB5BEA319A19215A7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBF3A0AC9BBC1CCA4E637292B3A2673 /* TWJsonModel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		23A3A0219E006116CA7308445C8CA305 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				EC34C917A405130B55A14501EDB53559 /* NSDictionary+twSwizzling.h */,
+				DEF1293DD4DE4DDFBE6D53639FABB41F /* NSDictionary+twSwizzling.m */,
+				873CA3C7A7E3DE0C08F4669787F232EB /* NSDictionary+twTool.h */,
+				AC5DB1596DAABB679E331BCCB8C7E6BB /* NSDictionary+twTool.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		28E7A0E02118637344ADA659B972DB76 /* Pods-TWJsonModel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2304139314741E48EFA03C7AFC9F95BF /* Pods-TWJsonModel_Tests.modulemap */,
+				AC111872AFF949A121B4F0E9726518D0 /* Pods-TWJsonModel_Tests-acknowledgements.markdown */,
+				B9185119BAB051D6B0701ABF947256F4 /* Pods-TWJsonModel_Tests-acknowledgements.plist */,
+				3600698A661C8DD1306710BB1F07A212 /* Pods-TWJsonModel_Tests-dummy.m */,
+				6814296D2721FF67DD34C91D686E13D4 /* Pods-TWJsonModel_Tests-frameworks.sh */,
+				004BF7169FE115BBDE2ECD7B0B335565 /* Pods-TWJsonModel_Tests-Info.plist */,
+				C1D7988712E727DC3089A61361361BA3 /* Pods-TWJsonModel_Tests-umbrella.h */,
+				C3C31359569E1B8C88858E54F198FA8A /* Pods-TWJsonModel_Tests.debug.xcconfig */,
+				6237E2F5022E29CC82AACD380A93DACE /* Pods-TWJsonModel_Tests.release.xcconfig */,
+			);
+			name = "Pods-TWJsonModel_Tests";
+			path = "Target Support Files/Pods-TWJsonModel_Tests";
+			sourceTree = "<group>";
+		};
+		29EC585009AFEA7E10D60A64738C4D6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A584F11568878DAC192864DEF70B7D76 /* FBSnapshotTestCase */,
+				7E8CE354E0E65E4C2D6B5D9A81BBCE14 /* JSONModel */,
+				AE7D04263EECE4D8D3DDA56C2A9CE76B /* TWFoundation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33BB96B7D5280DCFBB916256FA0C4BF8 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				3593DCB72B12E533CCA1529EDC116F06 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		3A8C6F748D3C9A813AB2BC98780FA261 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EA26C979B6918E142088F4AC33C1685 /* TWJsonModel.modulemap */,
+				B4EC8EF93F68C420A57659E2F67A1DA8 /* TWJsonModel-dummy.m */,
+				886DF712D79AD62A1D1DABB19B5A4049 /* TWJsonModel-Info.plist */,
+				61E03E2A4D96964085B606FCBF8EB3A3 /* TWJsonModel-prefix.pch */,
+				C8328854AC2EF3573C2E8E2FDB50983C /* TWJsonModel-umbrella.h */,
+				CD70AEBE1BF061D9AC91CB6BA1CA59A3 /* TWJsonModel.debug.xcconfig */,
+				4355F6F3584B67D5CB0F8F6452E3ACFC /* TWJsonModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TWJsonModel";
+			sourceTree = "<group>";
+		};
+		3E94C8276F60709314E1BB3A0C94E208 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FACD3998509E2350993A72CC765025A4 /* NSString+twAtt.h */,
+				CF89CE18D42B7F0BF867A818C7E3E33C /* NSString+twAtt.m */,
+				04B61A639A5F44953BBD56287FAFBC9F /* NSString+twEmail.h */,
+				64200561AE40A5ECA25A3A4F14447780 /* NSString+twEmail.m */,
+				B60DE1DEB6A42D42E3B19E60AC6EA718 /* NSString+twIDCard.h */,
+				3A2C698D27B633F55BB4C0825263136B /* NSString+twIDCard.m */,
+				B1996C53C99D3EAB795550EEA4449D12 /* NSString+twMD5.h */,
+				8832C490FBD749252551CBB47BAD0003 /* NSString+twMD5.m */,
+				DC256C14741EC91DE552B1BA487C3F45 /* NSString+twSize.h */,
+				B9A125284E21A2AC2F4B4FB7FC7283FC /* NSString+twSize.m */,
+				5F41F78A7A1A703C222D5C3767D29B08 /* NSString+twSwizzling.h */,
+				C081B6BABDF026E3749FB81F379FB8CE /* NSString+twSwizzling.m */,
+				1B48CAE8A287934E2F8BF964A79E8E98 /* NSString+twTool.h */,
+				358F26ACEC5C6B3A40880CD98E53EB72 /* NSString+twTool.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		40DA73460704E263A52FD92E85A8277F /* Pods-TWJsonModel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A5165DD0CC8F745C005DB1D682262A51 /* Pods-TWJsonModel_Example.modulemap */,
+				F900651ECFC39E46B101D40275122F93 /* Pods-TWJsonModel_Example-acknowledgements.markdown */,
+				C164E7DE9E36D1DD6EA4C298865C2377 /* Pods-TWJsonModel_Example-acknowledgements.plist */,
+				E0BAD853FBF0FA74348463FE5A92017C /* Pods-TWJsonModel_Example-dummy.m */,
+				E504F3C947363FBF071EB8365C0DF35F /* Pods-TWJsonModel_Example-frameworks.sh */,
+				D2287D79DC5CD05B19AAA44504EEF960 /* Pods-TWJsonModel_Example-Info.plist */,
+				5D47B4C27F6AB9B76766165F4AF74829 /* Pods-TWJsonModel_Example-umbrella.h */,
+				F7FFB1CF1FA9E4DFC8BD63604A818218 /* Pods-TWJsonModel_Example.debug.xcconfig */,
+				098797DA51D64F2D96D892F8E6AB8A4D /* Pods-TWJsonModel_Example.release.xcconfig */,
+			);
+			name = "Pods-TWJsonModel_Example";
+			path = "Target Support Files/Pods-TWJsonModel_Example";
+			sourceTree = "<group>";
+		};
+		7A4D9F5D5A7CB454CBD161B687150D40 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				6F8FB47A0A6EE3808B22273A5D771D77 /* NSArray+twJsonDic.h */,
+				B83B41362081D071C79AA4F7025ED3DD /* NSArray+twJsonDic.m */,
+				ED7689367A534A7DA1ED6EF31C281D5C /* NSArray+twSwizzling.h */,
+				F0FF503BE2FFF7BC717B8B05F4730773 /* NSArray+twSwizzling.m */,
+				3202928A9D278CFA77121E4EFB159120 /* NSMutableArray+twChain.h */,
+				A990F89C6DE46B24110C888998488C38 /* NSMutableArray+twChain.m */,
+				9BFEB18F6A997BDE2970B1DD9FE0EEB1 /* NSMutableArray+twSwizzling.h */,
+				2DCFC806CE014165926860D9E15B780D /* NSMutableArray+twSwizzling.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		7E8CE354E0E65E4C2D6B5D9A81BBCE14 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				43708C0983AE42DD104F3F0B14E9ABA9 /* JSONAPI.h */,
+				DF73ECC64050B6C8BC5C828C53FC739A /* JSONAPI.m */,
+				1A671EDD173E3417578C52A49D1079D2 /* JSONHTTPClient.h */,
+				01285E0BC8ED8537B6C902DF3D74756C /* JSONHTTPClient.m */,
+				1577333B5B5D9FC0E6BC698D7D8B4908 /* JSONKeyMapper.h */,
+				EB0BB4E153605420DBB8AE07761F67BA /* JSONKeyMapper.m */,
+				3ACC36914596EC7D446F4C133A252ED4 /* JSONModel.h */,
+				85322734EC65C9CFCC9CE0EF0052C8F4 /* JSONModel.m */,
+				DAEB20599F6A4B3E52D1DEC7F71263D5 /* JSONModel+networking.h */,
+				EFD5031227E167E658DC3BE181C3C253 /* JSONModel+networking.m */,
+				F00571C4ACBEA6C0CE143A2A3CA898BD /* JSONModelClassProperty.h */,
+				573DBA5521D262961024AB37D6046ACB /* JSONModelClassProperty.m */,
+				CFE89925B6F421D23FEFB1BB8A7FC239 /* JSONModelError.h */,
+				A3D68215E817EBBCA97ABA58A8BC3E08 /* JSONModelError.m */,
+				34200929E9D1C67CF19B5A6F85CB5B38 /* JSONModelLib.h */,
+				18335BEAF74C71DBCFC450574AA862B1 /* JSONValueTransformer.h */,
+				F28830A9BC9BCCC9CFEB8C7E87DC1EBE /* JSONValueTransformer.m */,
+				898493AA46BAA3077476D82AA6925B90 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		8520D85BD337A0FB02C66AA1A9BD672F /* NSFileManager */ = {
+			isa = PBXGroup;
+			children = (
+				AE130E49E37976E187879427EA72CAA4 /* NSFileManager+twTool.h */,
+				F63706CB92855991280A1A24009FBEB8 /* NSFileManager+twTool.m */,
+			);
+			name = NSFileManager;
+			sourceTree = "<group>";
+		};
+		898493AA46BAA3077476D82AA6925B90 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3F52A57B835C30E2FC5CB04F2735306 /* JSONModel.modulemap */,
+				3B5B29EE94A0F43D637163E8E5E0D4F3 /* JSONModel-dummy.m */,
+				2ADA895092F35CEC1B11B2AB9D1895FF /* JSONModel-Info.plist */,
+				B4226D8CEB67DF9E7FEDEF6AC3672BC9 /* JSONModel-prefix.pch */,
+				41366A2446FBD4F56B1A909274C4A0C8 /* JSONModel-umbrella.h */,
+				F04B8084726D50FE4D9DBB2B8D31451A /* JSONModel.debug.xcconfig */,
+				B246D53BC9FC9E196BA4519759E431C2 /* JSONModel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		9D05079B03777BB4989F02DABBB706E5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				BFC58DB98CC4B65854C0BF91F26D24FA /* FBSnapshotTestCase.h */,
+				6D5ACF5B44C79EAFAC1BB70CE2B4D40C /* FBSnapshotTestCase.m */,
+				3FD793A314174D50B66FEAAE5D0895C9 /* FBSnapshotTestCasePlatform.h */,
+				F4B2B6B9A2C32195D16557A17F148A50 /* FBSnapshotTestCasePlatform.m */,
+				F1BAF7AE3782EFECC8921CC110EDEA4A /* FBSnapshotTestController.h */,
+				F3B79B978C23C02AA281CB34FD3261EE /* FBSnapshotTestController.m */,
+				377F6F107D6C12B75711DCBE71EFDEB2 /* UIApplication+StrictKeyWindow.h */,
+				19B0E20917C370598623B46955E0D5D8 /* UIApplication+StrictKeyWindow.m */,
+				70404D3A0AE552BFBCCB068E17B916DA /* UIImage+Compare.h */,
+				E6913DCA8DD875774B5C0358C0CFD240 /* UIImage+Compare.m */,
+				0483604AB85B412272B68EC3B4BD6A9C /* UIImage+Diff.h */,
+				DD25A12C8493278DDC3527DCDF23982E /* UIImage+Diff.m */,
+				BE6A7F5D36748CF07BC34281FCDD96BD /* UIImage+Snapshot.h */,
+				DE1186A40BDB636C28A0274E1997E93B /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		A584F11568878DAC192864DEF70B7D76 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				9D05079B03777BB4989F02DABBB706E5 /* Core */,
+				E87A61C85AD0A7FDBF0C6BC839899C89 /* Support Files */,
+				33BB96B7D5280DCFBB916256FA0C4BF8 /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		A8EC64A77557E0C17DF6C96CD4B3475B /* NSDecimalNumber */ = {
+			isa = PBXGroup;
+			children = (
+				1AD531BAA1171AAE4544DD801C9DEEAA /* NSDecimalNumber+twChain.h */,
+				3357A927BD8764B1FAC549B699A67134 /* NSDecimalNumber+twChain.m */,
+				DC754C73572B25D80D4894E60AB4AAB3 /* NSDecimalNumber+twSwizzling.h */,
+				6B937C295892DCAA32D312A63E1AFA72 /* NSDecimalNumber+twSwizzling.m */,
+			);
+			name = NSDecimalNumber;
+			sourceTree = "<group>";
+		};
+		A97F54AEB05F969A4799E8276B4C7314 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				40DA73460704E263A52FD92E85A8277F /* Pods-TWJsonModel_Example */,
+				28E7A0E02118637344ADA659B972DB76 /* Pods-TWJsonModel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AE08B3E1A8E3DE5241CF1B3BA2240F7C /* Prefix */ = {
+			isa = PBXGroup;
+			children = (
+				A4D52DCA9A49347241557FB2A6275521 /* Block+twPrefix.h */,
+				64CED197FC2A67E8B90A34034D53C062 /* Color+twPrefix.h */,
+				B8D7B811FA6E46F4F5C3A475360A2422 /* Font+twPrefix.h */,
+				4B7607942B1F4269BD7B0B61C64E9765 /* Fun+twPrefix.h */,
+				A46A82D2EDFA55A75690699281B453FF /* Size+twPrefix.h */,
+			);
+			name = Prefix;
+			sourceTree = "<group>";
+		};
+		AE7D04263EECE4D8D3DDA56C2A9CE76B /* TWFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				19DE038E703F1D4ADEF823B5B00A2681 /* TWFoundation.h */,
+				7A4D9F5D5A7CB454CBD161B687150D40 /* NSArray */,
+				F2BE13D29048CD386CBB43EAB4ECEFFB /* NSData */,
+				06A28DFF59C0B158B52A13E0417AB7D9 /* NSDate */,
+				A8EC64A77557E0C17DF6C96CD4B3475B /* NSDecimalNumber */,
+				23A3A0219E006116CA7308445C8CA305 /* NSDictionary */,
+				8520D85BD337A0FB02C66AA1A9BD672F /* NSFileManager */,
+				BFC569ACF9BB14E0BC0B7CFE6E09D611 /* NSObject */,
+				3E94C8276F60709314E1BB3A0C94E208 /* NSString */,
+				AE08B3E1A8E3DE5241CF1B3BA2240F7C /* Prefix */,
+				C47067CB8D16C0AF12CA069497CDFF4A /* Support Files */,
+				C16EAADBF201C93D4748EFB336B66B00 /* TWAssistant */,
+			);
+			name = TWFoundation;
+			path = TWFoundation;
+			sourceTree = "<group>";
+		};
+		BFBF3A0AC9BBC1CCA4E637292B3A2673 /* TWJsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				C78B0F305B780C586B3CCA24747DA087 /* JSONModel+twSafe.h */,
+				A111D1532C26A8CDF966DB32D91BB1B3 /* JSONModel+twSafe.m */,
+				B5192571FB82EF462B5209C13BEE3ED3 /* TWJsonModel.h */,
+				B8FBF62A1C94B5925D8F47CEAE29F13A /* TWJsonModel.m */,
+				5B14F24B6A095FCBF595D8B6CA846F64 /* TWJsonModelTool.h */,
+				110E9E7559DE76646A9BCF68E98E4BD6 /* TWJsonModelTool.m */,
+				BFE1697D0CD076AD0B9C7682E3B6ABE6 /* Pod */,
+				3A8C6F748D3C9A813AB2BC98780FA261 /* Support Files */,
+			);
+			name = TWJsonModel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BFC569ACF9BB14E0BC0B7CFE6E09D611 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				1E32AC32F2000C9737A009AE8241FB8C /* NSObject+twAssiign.h */,
+				8C91244A0EB4695C9AB9931F219B277B /* NSObject+twAssiign.m */,
+				26F9610588D68C9834F6FA97F7B0A97B /* NSObject+twPerformSelector.h */,
+				E89E014CA0BA65AE1B84E8CFB370D067 /* NSObject+twPerformSelector.m */,
+				8F154AC2C7CBD57B52C4F6A87E543460 /* NSObject+twSafeKVO.h */,
+				60FF78ADEF42A60ADB6060DD7F360852 /* NSObject+twSafeKVO.m */,
+				D66FAED30DDA62A613BC8A5746BB8AC1 /* NSObject+twSwizzling.h */,
+				40403B01E3C81C8EFD4DA5830269139D /* NSObject+twSwizzling.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		BFE1697D0CD076AD0B9C7682E3B6ABE6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81FCE1525ECFD4D85A27180FCB8A16D9 /* LICENSE */,
+				F340EAC95BDA1A2AB1D27A6E670F2355 /* README.md */,
+				41937B3D8372F55DEC401C3D94BBEFEB /* TWJsonModel.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C16EAADBF201C93D4748EFB336B66B00 /* TWAssistant */ = {
+			isa = PBXGroup;
+			children = (
+				594F75A0DCFC948D7B76E874B0F2A617 /* TWAssistant.h */,
+				BC31B92CA75781E556E183410CF3109F /* TWAssistant.m */,
+			);
+			name = TWAssistant;
+			sourceTree = "<group>";
+		};
+		C47067CB8D16C0AF12CA069497CDFF4A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E23D43487D94E4AA34D8F550A4A1CB91 /* TWFoundation.modulemap */,
+				20D095C0F64A4B35EE6BDCA000930006 /* TWFoundation-dummy.m */,
+				5058AE52CE1C22B6C7AB673EDB364256 /* TWFoundation-Info.plist */,
+				5E6002663F3B9D59BD27AF3601DE7C4B /* TWFoundation-prefix.pch */,
+				F50979F300DF4FEC8C73E217E225A0A5 /* TWFoundation-umbrella.h */,
+				F290D0F7996B0707C1FA51EA1A57E01A /* TWFoundation.debug.xcconfig */,
+				8C4CC18186F7F509D756991FF4A54607 /* TWFoundation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TWFoundation";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				198E88E0EAF95C1EB5BEA319A19215A7 /* Development Pods */,
+				F5087DAF5C033A3F65CB2A2B4CCCCD4D /* Frameworks */,
+				29EC585009AFEA7E10D60A64738C4D6D /* Pods */,
+				E1F81B838C74E802F493BCC0D4F84E53 /* Products */,
+				A97F54AEB05F969A4799E8276B4C7314 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E1F81B838C74E802F493BCC0D4F84E53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */,
+				BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */,
+				93299A408727AF5ED151DF0EDDB409FD /* Pods_TWJsonModel_Example.framework */,
+				89CF21EB41BEAB8887E1062AE751C341 /* Pods_TWJsonModel_Tests.framework */,
+				6339ECEC90939AF49D087C876EB76CDD /* TWFoundation.framework */,
+				B185C498A06507EE33647C2A2A458630 /* TWJsonModel.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E33BEE9BB14DA73C3B836211B79C878E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B6E18504E702C36F1AE6D44DC2FE7F13 /* CoreText.framework */,
+				01E195E34BF3D8B285F45C17C8B43A45 /* Foundation.framework */,
+				1AA66A3DAA9D8F86FF96F0C9BC2E057E /* QuartzCore.framework */,
+				D4AACF124FDDF4592C08D9A98261404D /* UIKit.framework */,
+				26204B0489F4ABC36F83F2734766C346 /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E87A61C85AD0A7FDBF0C6BC839899C89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E52087FF83029CE0BB014C1E13E7CE30 /* FBSnapshotTestCase.modulemap */,
+				473F6F3543E96240235B523D0C1261E8 /* FBSnapshotTestCase-dummy.m */,
+				90862ED5DD5C6C18415E60CCA597C51B /* FBSnapshotTestCase-Info.plist */,
+				6FEC150F2D42CCF836B04B7E9FD3E070 /* FBSnapshotTestCase-prefix.pch */,
+				FED05B248A69595106C7091F4B310D83 /* FBSnapshotTestCase-umbrella.h */,
+				E22245376D97054CDEE3B1023C9C3886 /* FBSnapshotTestCase.debug.xcconfig */,
+				705D65B3C631E0B48783D3175699394F /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		F2BE13D29048CD386CBB43EAB4ECEFFB /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				1F66FBD327BB05FB5C0B655D81BF3714 /* NSData+twDic.h */,
+				380F0B1E30B4317C7D6D5B18A2ABC0F4 /* NSData+twDic.m */,
+			);
+			name = NSData;
+			sourceTree = "<group>";
+		};
+		F5087DAF5C033A3F65CB2A2B4CCCCD4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2027A910060CEB6C34D628CBED8A5EE8 /* JSONModel.framework */,
+				E9F73D7E173FF7E39DC0AEDB381732EB /* TWFoundation.framework */,
+				E33BEE9BB14DA73C3B836211B79C878E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		106DED4EB8E8C178B38DAB4FA1C2CD0E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15288751B201C8221E40598E62BF6700 /* JSONModel+twSafe.h in Headers */,
+				FE60E435C64DA8393D129A403D2FEB0E /* TWJsonModel-umbrella.h in Headers */,
+				F86AAB391A7C1ABEEAB3FB0BAFAB904E /* TWJsonModel.h in Headers */,
+				BB83E1272AB411A30E53187B6CC60221 /* TWJsonModelTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */,
+				C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */,
+				90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */,
+				40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */,
+				F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */,
+				D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */,
+				B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		386FF88D6D73CB01892E2D602BBA4801 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7ACFA285EE9B8E305CE3438C7B2D0D /* Block+twPrefix.h in Headers */,
+				B98A097021D5AC619DB076E4752112D1 /* Color+twPrefix.h in Headers */,
+				F9F03122454B38C256A72C3FA5B05F06 /* Font+twPrefix.h in Headers */,
+				847739EED7D5293EBA5456E2616D6418 /* Fun+twPrefix.h in Headers */,
+				D67527ED7F9A580B2C04302325EED4D4 /* NSArray+twJsonDic.h in Headers */,
+				3C5DD52D06AAB3308D1083EB61B17FE1 /* NSArray+twSwizzling.h in Headers */,
+				4E3DF36357A1AB4D9CBDE84637E4FEC4 /* NSData+twDic.h in Headers */,
+				5055FB626F731B453FEB5FED1A5ED17D /* NSDate+twTool.h in Headers */,
+				1FB69FA9FFD3C161D82DC49939C40C4E /* NSDecimalNumber+twChain.h in Headers */,
+				7E89E92412D8B39F4628D9ED31DFCD4D /* NSDecimalNumber+twSwizzling.h in Headers */,
+				EFE9290C148E7044B256ABA3615C9BE6 /* NSDictionary+twSwizzling.h in Headers */,
+				1422BBE575143EA7567B1F1E5A768453 /* NSDictionary+twTool.h in Headers */,
+				264C6BA1AEAFA083DC088E6351511EDB /* NSFileManager+twTool.h in Headers */,
+				B8990AD083381CBE79F8E7E5985B1507 /* NSMutableArray+twChain.h in Headers */,
+				E1510CF44142616797B512C87B7BB04B /* NSMutableArray+twSwizzling.h in Headers */,
+				08AB969FAF86BF1B4D46A9C289FFA439 /* NSObject+twAssiign.h in Headers */,
+				631849B5356940A34CFF91CAFB4D5F28 /* NSObject+twPerformSelector.h in Headers */,
+				FE6029FAF590FD176A88A53D5754DB33 /* NSObject+twSafeKVO.h in Headers */,
+				F144E2D86ABC8FC19E6448178DC6AB2C /* NSObject+twSwizzling.h in Headers */,
+				507B5DBCCA3ACD7A5C8A9FD16BF56B30 /* NSString+twAtt.h in Headers */,
+				71762BD73436E8A98EC3B16C6BEBA194 /* NSString+twEmail.h in Headers */,
+				88448DCF472C186791CE61F8E9BFA8DD /* NSString+twIDCard.h in Headers */,
+				0C7A40A67ED5BDB0EB9673CA419ED822 /* NSString+twMD5.h in Headers */,
+				F1C1B04555CAE7988ED4A9D093B139CA /* NSString+twSize.h in Headers */,
+				BF517127282CFEF2A582635A832A9D99 /* NSString+twSwizzling.h in Headers */,
+				B1F1A46FC5DDA6402A1868AE8FF7D0EE /* NSString+twTool.h in Headers */,
+				9AEBCEBF3EC20CA673F17CADB25FD4B9 /* Size+twPrefix.h in Headers */,
+				1ECE79A9D703FCA3C971048B838FBA30 /* TWAssistant.h in Headers */,
+				3864DE5F0766C45C2C057143E8C2A6E8 /* TWFoundation-umbrella.h in Headers */,
+				7FCDD508122EAD1B7D8E44DD2D076A84 /* TWFoundation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CC28C7C7D8214FB346E1731E6F23439 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E77A37EF7B20888E77CB3267AAA04D1 /* Pods-TWJsonModel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C10AE64316B9C31B3BB6170AF9933749 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AEA2F22B88CD78E671F25B60DB66ADA /* JSONAPI.h in Headers */,
+				1071D84B6431759A11FAEBAAE29E3F32 /* JSONHTTPClient.h in Headers */,
+				C7850AB3F7B5FDCA4F1F47F1EC205276 /* JSONKeyMapper.h in Headers */,
+				191126E8D5A1E26339D2B767EF3AE197 /* JSONModel+networking.h in Headers */,
+				DFF8D80125C062F6646E6EE798E6ABA3 /* JSONModel-umbrella.h in Headers */,
+				75C939C90205A780AB001C84A0B90C24 /* JSONModel.h in Headers */,
+				D358BCEB69D2E10B9BC6504C93D7D14C /* JSONModelClassProperty.h in Headers */,
+				02E2954BD351E7B167D8F60B13208DAF /* JSONModelError.h in Headers */,
+				C25BD96E691172D62B98B2F5F8D7F0C7 /* JSONModelLib.h in Headers */,
+				E3886BA871A93B03E984D8BD7823D947 /* JSONValueTransformer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED9F1343A2D6336AB153F14BC1BE57B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DE2D173276F0131FFBE002FF817528F /* Pods-TWJsonModel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2E911C497383C36C26D2A9FF5DB0D40B /* TWFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA83ADC300E6BD9DBC6099CA9D9E55D1 /* Build configuration list for PBXNativeTarget "TWFoundation" */;
+			buildPhases = (
+				386FF88D6D73CB01892E2D602BBA4801 /* Headers */,
+				F78623D7E9C05C83A4CDC814A20B882F /* Sources */,
+				3E2B016A949C325DDB4E74EB017717A1 /* Frameworks */,
+				46ADDB1B887F9CD377EA033737628FCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWFoundation;
+			productName = TWFoundation;
+			productReference = 6339ECEC90939AF49D087C876EB76CDD /* TWFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		69A7A18043224C3419AC3C083542642C /* Pods-TWJsonModel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 507A705D1D98C72C26F394B10240CF15 /* Build configuration list for PBXNativeTarget "Pods-TWJsonModel_Example" */;
+			buildPhases = (
+				ED9F1343A2D6336AB153F14BC1BE57B0 /* Headers */,
+				1EE73AFBB1C81D15797E34F6FD7D1BD4 /* Sources */,
+				4768D958347E083D43B9B8FDB3876AE8 /* Frameworks */,
+				8C69124931CC11BCBB9A841E01BC4AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B2D299C484BD3EFA484A0499F4E4F31 /* PBXTargetDependency */,
+				D7D958C5D3FBC0C5E16A13CE6F7FEFC8 /* PBXTargetDependency */,
+				A81EF0F0E78799BB7E8A0158344448E1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWJsonModel_Example";
+			productName = "Pods-TWJsonModel_Example";
+			productReference = 93299A408727AF5ED151DF0EDDB409FD /* Pods_TWJsonModel_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75014975375446530D192FAEAAF1A552 /* Pods-TWJsonModel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F12A37B9EC4C279EFEB13184F55A36A /* Build configuration list for PBXNativeTarget "Pods-TWJsonModel_Tests" */;
+			buildPhases = (
+				6CC28C7C7D8214FB346E1731E6F23439 /* Headers */,
+				CE7E377EC8EE9A125FC68FA55DB86CC5 /* Sources */,
+				E6BF75D5E146B3660077512191838221 /* Frameworks */,
+				6B79CE310FD7D638A5C2BA6A8B515300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB90C6A3E77F0454EEFAA1B7980577CD /* PBXTargetDependency */,
+				440FA6E79FAD993AB946492526B6DB56 /* PBXTargetDependency */,
+			);
+			name = "Pods-TWJsonModel_Tests";
+			productName = "Pods-TWJsonModel_Tests";
+			productReference = 89CF21EB41BEAB8887E1062AE751C341 /* Pods_TWJsonModel_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		844669E9166D5986E4DC5166C38A38CB /* TWJsonModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7066D088BF85ECB828E29BAB8AD26489 /* Build configuration list for PBXNativeTarget "TWJsonModel" */;
+			buildPhases = (
+				106DED4EB8E8C178B38DAB4FA1C2CD0E /* Headers */,
+				4DD4EA51C2095B7115F84A659DD725FD /* Sources */,
+				E93A6A7CEA7833E13E0A11A33E024D4D /* Frameworks */,
+				C67D312D21F8BC62FC78F1F54096DC73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74D0724EDE9BA73B5F20DEE1714F5A3F /* PBXTargetDependency */,
+				962DC82A21C6F5276F0DB843733E4A24 /* PBXTargetDependency */,
+			);
+			name = TWJsonModel;
+			productName = TWJsonModel;
+			productReference = B185C498A06507EE33647C2A2A458630 /* TWJsonModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */,
+				A48201AC594B2E6B09C0EE0396BC1377 /* Sources */,
+				E581515110D66F94F80A6937831489A1 /* Frameworks */,
+				5CC655F1A6C7A45A9693160581076BAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				C10AE64316B9C31B3BB6170AF9933749 /* Headers */,
+				9110B95813C4D6328D3D0802138CFDE0 /* Sources */,
+				886E050E05F79FD43F2409BED7E67F73 /* Frameworks */,
+				33431436401EBC85BE0A907D9728DA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = BAACA1BF7AB3DD28402C4F9A7C2FD104 /* JSONModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E1F81B838C74E802F493BCC0D4F84E53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */,
+				69A7A18043224C3419AC3C083542642C /* Pods-TWJsonModel_Example */,
+				75014975375446530D192FAEAAF1A552 /* Pods-TWJsonModel_Tests */,
+				2E911C497383C36C26D2A9FF5DB0D40B /* TWFoundation */,
+				844669E9166D5986E4DC5166C38A38CB /* TWJsonModel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33431436401EBC85BE0A907D9728DA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADDB1B887F9CD377EA033737628FCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B79CE310FD7D638A5C2BA6A8B515300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C69124931CC11BCBB9A841E01BC4AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C67D312D21F8BC62FC78F1F54096DC73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EE73AFBB1C81D15797E34F6FD7D1BD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436134B8354FC914E13EC95FDF2D570 /* Pods-TWJsonModel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DD4EA51C2095B7115F84A659DD725FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1D1B19DA113D53FF43BF186F0F33BC /* JSONModel+twSafe.m in Sources */,
+				71EF6C585712B94068047343E196E71E /* TWJsonModel-dummy.m in Sources */,
+				1609008EEE6572F06F28231122F6C8A6 /* TWJsonModel.m in Sources */,
+				70325CFAA136AC6DC7B12501884B9616 /* TWJsonModelTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9110B95813C4D6328D3D0802138CFDE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C65CBBF120A2DD097498BFA38119D466 /* JSONAPI.m in Sources */,
+				B4C7BC969594EB3E9323674B7FF7C66E /* JSONHTTPClient.m in Sources */,
+				26A3D3037A05E7E99AFF098D11427775 /* JSONKeyMapper.m in Sources */,
+				CFD38BDDB48F8D35B9A858E957A933A2 /* JSONModel+networking.m in Sources */,
+				F442593E37B8F49398FDB1974EDF3FD6 /* JSONModel-dummy.m in Sources */,
+				6FCDE0D44543F4DABF90A88E056D8199 /* JSONModel.m in Sources */,
+				C64C8DE746D376EEA160794275302677 /* JSONModelClassProperty.m in Sources */,
+				A52DD788A5384665F425D6A2C7493AD0 /* JSONModelError.m in Sources */,
+				B0BA1C31A2A3AB25BC95A4B2DE0A7B5D /* JSONValueTransformer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48201AC594B2E6B09C0EE0396BC1377 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */,
+				8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */,
+				E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */,
+				88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */,
+				9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */,
+				11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */,
+				2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */,
+				14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */,
+				A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7E377EC8EE9A125FC68FA55DB86CC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9BB6314693C5CCE7F3924AF799A44DD /* Pods-TWJsonModel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F78623D7E9C05C83A4CDC814A20B882F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4FD9C23AC644C462A852F4D8EC7F00 /* NSArray+twJsonDic.m in Sources */,
+				16AB90F6924ECC9F2CC68BFCB4E716BA /* NSArray+twSwizzling.m in Sources */,
+				B837D5A2A908853FE83A363243430C5A /* NSData+twDic.m in Sources */,
+				A0F400E39F54A64BE0B96953676053CC /* NSDate+twTool.m in Sources */,
+				ACE9CE885A90D76579D5CA0906552EF2 /* NSDecimalNumber+twChain.m in Sources */,
+				74EAB2AA090B4652BDB13A85BD0F6493 /* NSDecimalNumber+twSwizzling.m in Sources */,
+				100D3A40D706D3E8BFE1B504DDB9920B /* NSDictionary+twSwizzling.m in Sources */,
+				DB021D5517A42CC756CF86B74D88D773 /* NSDictionary+twTool.m in Sources */,
+				2C3CAF2571C02EB5AF79343A1DB49E28 /* NSFileManager+twTool.m in Sources */,
+				57851479F2555FD02A80F73C54D749FE /* NSMutableArray+twChain.m in Sources */,
+				FE55FDF91719F09CA195DF40FA7B403D /* NSMutableArray+twSwizzling.m in Sources */,
+				068FAE21A7DEFC1116421911981C52F5 /* NSObject+twAssiign.m in Sources */,
+				7BA92FE60D681306E4B5004055F4B73E /* NSObject+twPerformSelector.m in Sources */,
+				9CAEF8151CF6085D76345ECDA382ED27 /* NSObject+twSafeKVO.m in Sources */,
+				BE55FC3AD5B4986F5B1A5B7D27C06C30 /* NSObject+twSwizzling.m in Sources */,
+				EE5FA20A0A614A3CB40DAB9D788576F6 /* NSString+twAtt.m in Sources */,
+				76DC61EDF4240D6AAA29FF3DDB933C64 /* NSString+twEmail.m in Sources */,
+				75083212E87AF65312E17C6FB00B11AD /* NSString+twIDCard.m in Sources */,
+				40A26FC9B0D90618AA426B4BCFD1608E /* NSString+twMD5.m in Sources */,
+				74424E43E1D4C968ABDAA841F3BB502A /* NSString+twSize.m in Sources */,
+				EBB125556500F85FC6982B79931FCC78 /* NSString+twSwizzling.m in Sources */,
+				1E56AF1A0BC7D018E24AE19ED248BA7A /* NSString+twTool.m in Sources */,
+				9C97CCD01062EE2E9F791F649836DEB1 /* TWAssistant.m in Sources */,
+				555718B3A7320C5D841B7387B6AA955D /* TWFoundation-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440FA6E79FAD993AB946492526B6DB56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TWJsonModel_Example";
+			target = 69A7A18043224C3419AC3C083542642C /* Pods-TWJsonModel_Example */;
+			targetProxy = 7CC7559A5490EE0D37AEA67C4080DC1E /* PBXContainerItemProxy */;
+		};
+		74D0724EDE9BA73B5F20DEE1714F5A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = 80FB494263DFAB19B05F4714F0036AB3 /* PBXContainerItemProxy */;
+		};
+		8B2D299C484BD3EFA484A0499F4E4F31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = E0EAF4371C6E4B30A1779D513CB4355B /* JSONModel */;
+			targetProxy = B3D700FCC8E2C0F92CE5048178C643ED /* PBXContainerItemProxy */;
+		};
+		962DC82A21C6F5276F0DB843733E4A24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWFoundation;
+			target = 2E911C497383C36C26D2A9FF5DB0D40B /* TWFoundation */;
+			targetProxy = 77C5587598892053FA2FF5AA548C1213 /* PBXContainerItemProxy */;
+		};
+		A81EF0F0E78799BB7E8A0158344448E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWJsonModel;
+			target = 844669E9166D5986E4DC5166C38A38CB /* TWJsonModel */;
+			targetProxy = ECCFAE5DB28735019AB9F025AD54099C /* PBXContainerItemProxy */;
+		};
+		D7D958C5D3FBC0C5E16A13CE6F7FEFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TWFoundation;
+			target = 2E911C497383C36C26D2A9FF5DB0D40B /* TWFoundation */;
+			targetProxy = B548B7748089B29500591E8DA4A6C730 /* PBXContainerItemProxy */;
+		};
+		DB90C6A3E77F0454EEFAA1B7980577CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = 8BAF8D4DF8E5F0F1D035DD9038ECC681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01CE14BA3C7417A57EB5725E57335121 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FFB1CF1FA9E4DFC8BD63604A818218 /* Pods-TWJsonModel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2D4AD1FAEFE02B9404BB286B9D6A8157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD70AEBE1BF061D9AC91CB6BA1CA59A3 /* TWJsonModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TWJsonModel/TWJsonModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWJsonModel/TWJsonModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWJsonModel/TWJsonModel.modulemap";
+				PRODUCT_MODULE_NAME = TWJsonModel;
+				PRODUCT_NAME = TWJsonModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22245376D97054CDEE3B1023C9C3886 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AD4A8202FD314B997CCB1989806D260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F04B8084726D50FE4D9DBB2B8D31451A /* JSONModel.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8C2FCD88DF1F96EA70FF762C21DB833A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B246D53BC9FC9E196BA4519759E431C2 /* JSONModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSONModel/JSONModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSONModel/JSONModel.modulemap";
+				PRODUCT_MODULE_NAME = JSONModel;
+				PRODUCT_NAME = JSONModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0271F2AFA77BF9D87628E28A0C96CBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6237E2F5022E29CC82AACD380A93DACE /* Pods-TWJsonModel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TWJsonModel_Tests/Pods-TWJsonModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWJsonModel_Tests/Pods-TWJsonModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD48F5B67BDBE04C74041AE07139DA67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F290D0F7996B0707C1FA51EA1A57E01A /* TWFoundation.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TWFoundation/TWFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWFoundation/TWFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWFoundation/TWFoundation.modulemap";
+				PRODUCT_MODULE_NAME = TWFoundation;
+				PRODUCT_NAME = TWFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 705D65B3C631E0B48783D3175699394F /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D27751A2D91DE934F9062F321A167265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4355F6F3584B67D5CB0F8F6452E3ACFC /* TWJsonModel.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TWJsonModel/TWJsonModel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWJsonModel/TWJsonModel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWJsonModel/TWJsonModel.modulemap";
+				PRODUCT_MODULE_NAME = TWJsonModel;
+				PRODUCT_NAME = TWJsonModel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D808A3DFEE49D68449D158D2291515E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098797DA51D64F2D96D892F8E6AB8A4D /* Pods-TWJsonModel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWJsonModel_Example/Pods-TWJsonModel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DF093D257127644BE9A156B53BF7FE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C31359569E1B8C88858E54F198FA8A /* Pods-TWJsonModel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TWJsonModel_Tests/Pods-TWJsonModel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TWJsonModel_Tests/Pods-TWJsonModel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4B4722A15154D3BB4B83FF37F824F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C4CC18186F7F509D756991FF4A54607 /* TWFoundation.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TWFoundation/TWFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TWFoundation/TWFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TWFoundation/TWFoundation.modulemap";
+				PRODUCT_MODULE_NAME = TWFoundation;
+				PRODUCT_NAME = TWFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F12A37B9EC4C279EFEB13184F55A36A /* Build configuration list for PBXNativeTarget "Pods-TWJsonModel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF093D257127644BE9A156B53BF7FE0F /* Debug */,
+				A0271F2AFA77BF9D87628E28A0C96CBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		507A705D1D98C72C26F394B10240CF15 /* Build configuration list for PBXNativeTarget "Pods-TWJsonModel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01CE14BA3C7417A57EB5725E57335121 /* Debug */,
+				D808A3DFEE49D68449D158D2291515E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7066D088BF85ECB828E29BAB8AD26489 /* Build configuration list for PBXNativeTarget "TWJsonModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4AD1FAEFE02B9404BB286B9D6A8157 /* Debug */,
+				D27751A2D91DE934F9062F321A167265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864246C4794538189B6310F839B9CD50 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AD4A8202FD314B997CCB1989806D260 /* Debug */,
+				8C2FCD88DF1F96EA70FF762C21DB833A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38070E189561F257BBD5A0A55CACCCF /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */,
+				BF531801B332EDF71FA8F4F9667B86BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA83ADC300E6BD9DBC6099CA9D9E55D1 /* Build configuration list for PBXNativeTarget "TWFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD48F5B67BDBE04C74041AE07139DA67 /* Debug */,
+				E4B4722A15154D3BB4B83FF37F824F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

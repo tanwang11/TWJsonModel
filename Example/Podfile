@@ -1,10 +1,19 @@
 use_frameworks!
 
+source 'https://github.com/tanwang11/TWSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '9.0'
 
 target 'TWJsonModel_Example' do
   pod 'TWJsonModel', :path => '../'
-
+  
+  pod 'JSONModel'
+  pod 'TWFoundation'
+  
+  
+  
   target 'TWJsonModel_Tests' do
     inherit! :search_paths
 

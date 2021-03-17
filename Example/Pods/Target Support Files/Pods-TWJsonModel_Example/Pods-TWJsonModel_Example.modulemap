@@ -1,0 +1,6 @@
+framework module Pods_TWJsonModel_Example {
+  umbrella header "Pods-TWJsonModel_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

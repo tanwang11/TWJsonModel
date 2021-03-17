@@ -1,0 +1,68 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JSONModel (1.8.0)
+  - TWFoundation (0.0.3):
+    - TWFoundation/NSArray (= 0.0.3)
+    - TWFoundation/NSData (= 0.0.3)
+    - TWFoundation/NSDate (= 0.0.3)
+    - TWFoundation/NSDecimalNumber (= 0.0.3)
+    - TWFoundation/NSDictionary (= 0.0.3)
+    - TWFoundation/NSFileManager (= 0.0.3)
+    - TWFoundation/NSObject (= 0.0.3)
+    - TWFoundation/NSString (= 0.0.3)
+    - TWFoundation/Prefix (= 0.0.3)
+    - TWFoundation/TWAssistant (= 0.0.3)
+  - TWFoundation/NSArray (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSData (0.0.3)
+  - TWFoundation/NSDate (0.0.3):
+    - TWFoundation/NSString
+  - TWFoundation/NSDecimalNumber (0.0.3):
+    - TWFoundation/NSObject
+  - TWFoundation/NSDictionary (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/NSFileManager (0.0.3)
+  - TWFoundation/NSObject (0.0.3)
+  - TWFoundation/NSString (0.0.3):
+    - TWFoundation/NSObject
+    - TWFoundation/Prefix
+  - TWFoundation/Prefix (0.0.3)
+  - TWFoundation/TWAssistant (0.0.3):
+    - TWFoundation/Prefix
+  - TWJsonModel (0.0.1):
+    - JSONModel
+    - TWFoundation
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JSONModel
+  - TWFoundation
+  - TWJsonModel (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - JSONModel
+  https://github.com/tanwang11/TWSpecs.git:
+    - TWFoundation
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TWJsonModel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JSONModel: 02ab723958366a3fd27da57ea2af2113658762e9
+  TWFoundation: 5293f8fb88c98bd82c27df97ce9a74c373071e9a
+  TWJsonModel: 8e5359e3c8a4cdb658445c83cdc6ce17062aae8f
+
+PODFILE CHECKSUM: 8d0fa6ddc4f235be1f925267a855df5e53733301
+
+COCOAPODS: 1.10.1
