@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TWJsonModel_Example' do
+  pod 'TWJsonModel', :path => '../'
+
+  target 'TWJsonModel_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
